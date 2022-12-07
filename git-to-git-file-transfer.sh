@@ -6,8 +6,8 @@
 # so this would copy the files from soure and replace the content in the destination path
 # This script will also let the user to see the difference in the files post copy/replace step and upon the user response, will let the user commit and push the changes as well
 
-SOURCE_REPO_PATH="C:/Users/srikanta.p/Documents/OTBS/repo/bitbucket_mr/otbs-web"
-DESTINATION_REPO_PATH="C:/Users/srikanta.p/Documents/GitHub/OTBS-Web"
+SOURCE_REPO_PATH="C:/Users/srikanta/Documents/repo/bitbucket/repo_1"
+DESTINATION_REPO_PATH="C:/Users/srikanta/Documents/GitHub/repo_01"
 
 
 if [ "$#" -eq 2 ]; then
