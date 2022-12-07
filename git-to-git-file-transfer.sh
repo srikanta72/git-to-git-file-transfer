@@ -2,7 +2,7 @@
 
 # Script to copy and replace files from one path in the repo to another repo
 # Declare the source_root_path and destination_root_path provided below
-# run the command sh promoteChanges.sh hrportal/ui.apps or sh promoteChanges.sh hrportal/core or sh promoteChanges.sh dispatcher.ams
+# run the command sh git-to-git-file-transfer.sh subfolder_name or sh git-to-git-file-transfer.sh or sh git-to-git-file-transfer.sh subfolder_name
 # so this would copy the files from soure and replace the content in the destination path
 # This script will also let the user to see the difference in the files post copy/replace step and upon the user response, will let the user commit and push the changes as well
 
